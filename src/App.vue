@@ -7,17 +7,18 @@
         黄建峰的学习笔记
         <div
           style="
-            height: 30px;
+            height: 16px;
             width: 100%;
             position: fixed;
-            bottom: 0;
+            bottom: 5px;
             left: 0;
             display: flex;
             justify-content: center;
             align-items: center;
+            font-size: 12px;
           "
         >
-          <img :src="police" />
+          <img :src="police" title="备案" style="width: 16px; height: 16px;"/>
           <a
             href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43100302000292"
             target="_blank"

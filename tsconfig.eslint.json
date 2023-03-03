@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*",
+    "src/**/*.vue",
+    "babel.config.js",
+    "commitlint.config.js",
+    ".eslintrc.js",
+    "config"
+  ],
+  "exclude": []
+}
