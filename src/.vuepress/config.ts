@@ -3,13 +3,10 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/",
-
   lang: "zh-CN",
-  title: "博客演示",
-  description: "vuepress-theme-hope 的博客演示",
-
+  title: "博客",
+  description: "黄建峰的个人博客",
   theme,
-
   // Enable it with pwa
   // shouldPrefetch: false,
 });
