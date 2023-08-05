@@ -4,19 +4,23 @@ export default navbar([
 	'/',
 	{
 		text: '常规前端',
-		icon: 'pen-to-square',
+		icon: 'laptop-code',
 		prefix: '/front/',
 		children: [
 			{
-				text: '苹果',
-				icon: 'pen-to-square',
-				prefix: 'apple/',
-				children: [
-					{ text: '苹果1', icon: 'pen-to-square', link: '1' },
-					{ text: '苹果2', icon: 'pen-to-square', link: '2' },
-					'3',
-					'4',
-				],
+				text: 'CSS',
+				icon: 'css',
+				link: '1',
+			},
+			{
+				text: 'JS',
+				icon: 'javascript',
+				link: '2',
+			},
+			{
+				text: 'VUE',
+				icon: 'vue',
+				link: '3',
 			},
 		],
 	},
