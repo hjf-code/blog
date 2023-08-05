@@ -28,7 +28,15 @@ export default hopeTheme({
 	// 侧边栏菜单
 	sidebar,
 
-	iconAssets: 'fontawesome-with-brands',
+	// icon图标资源，这里使用了fontawesome-free中的solid和brands
+	iconAssets: [
+		'/assets/fontawesome-free-6.4.2/css/fontawesome.min.css',
+		'/assets/fontawesome-free-6.4.2/css/brands.min.css',
+		'/assets/fontawesome-free-6.4.2/css/solid.min.css'
+	],
+
+	// icon图标的前缀，方便简写，但是上面使用了2个类型的图标，所以不能设置统一前缀
+	iconPrefix: '',
 
 	logo: '/logo.svg',
 

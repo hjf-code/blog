@@ -1,7 +1,7 @@
 ---
 home: true
 layout: BlogHome
-icon: home
+icon: fa-solid fa-home
 title: 首页
 heroImage: /logo.svg
 heroText: 你博客的名称

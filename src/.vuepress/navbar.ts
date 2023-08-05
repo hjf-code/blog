@@ -4,22 +4,22 @@ export default navbar([
 	'/',
 	{
 		text: '常规前端',
-		icon: 'laptop-code',
+		icon: 'fa-solid fa-laptop-code',
 		prefix: '/front/',
 		children: [
 			{
 				text: 'CSS',
-				icon: 'css',
+				icon: 'fa-brands fa-css3-alt',
 				link: '1',
 			},
 			{
 				text: 'JS',
-				icon: 'javascript',
+				icon: 'fa-brands fa-node-js',
 				link: '2',
 			},
 			{
 				text: 'VUE',
-				icon: 'vue',
+				icon: 'fa-brands fa-vuejs',
 				link: '3',
 			},
 		],
