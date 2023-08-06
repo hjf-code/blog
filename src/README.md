@@ -1,44 +1,32 @@
 ---
 home: true
-layout: BlogHome
-icon: fa-solid fa-home
-title: 首页
-heroImage: /logo.svg
-heroText: 你博客的名称
+title: 主页
+tagline: 喜欢有情人终成眷属的桥段
+heroImage: /logo.jpg
+heroImageStyle:
+    border-radius: 50%
+heroText: 黄建峰的个人博客
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+bgImage: /bg.jpg
+icon: fa-solid fa-home
+layout: BlogHome
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
-
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
-
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
-
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
-
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
-
-  - icon: /logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
-
-footer: 自定义你的页脚文字
+    - icon: /logo.jpg
+      name: 博客作者
+      desc: 通过微信联系我
+      link: https://hjf.plus/WeChat.jpg
+    - icon: fa-solid fa-address-book
+      name: 个人简历
+      desc: 工作、项目经历
+      link: https://m.zhipin.com/mpa/html/resume-detail?sid=self&securityId=QKS006R8NWGgl-L1m5XSaL518_1HHmt3vSzGSibEhJX0HRCJ4-8708hyTpKxjWj2mglX0IwkD52JSGtvnUH9uWOpWDtkCwmnb8YiMQe2QqvsjXc9a2mSndwaA-ysGwz54WoI1G8kRhXpWpMsHfd04d1xXAS3RtlrVMuk
+    - icon: fa-solid fa-music
+      name: 常听歌单
+      desc: 不断收藏的几百首歌
+      link: https://music.163.com/playlist?id=311030278&userid=249117155
+    - icon: fa-solid fa-tree-city
+      name: 我的家乡
+      desc: 欢迎来湄洲岛旅游
+      link: http://sw.mzdtour.com/mzdgk/index.jhtml
 ---
 
 这是一个博客主页的案例。

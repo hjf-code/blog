@@ -1,1 +1,8 @@
 // place your custom styles here
+.vp-footer a {
+	color: var(--light-grey);
+
+	&:hover {
+		color: var(--theme-color);
+	}
+}
