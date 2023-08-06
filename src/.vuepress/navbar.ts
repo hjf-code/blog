@@ -49,7 +49,7 @@ export default navbar([
 	{
 		text: '两只猫',
 		icon: 'fa-solid fa-paw',
-		link: '/2',
+		link: '/cats',
 	},
 	{
 		text: '关于我',

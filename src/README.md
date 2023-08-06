@@ -16,21 +16,15 @@ projects:
       desc: 通过微信联系我
       link: https://hjf.plus/WeChat.jpg
     - icon: fa-solid fa-address-book
-      name: 个人简历
+      name: 求职简历
       desc: 工作、项目经历
       link: https://m.zhipin.com/mpa/html/resume-detail?sid=self&securityId=QKS006R8NWGgl-L1m5XSaL518_1HHmt3vSzGSibEhJX0HRCJ4-8708hyTpKxjWj2mglX0IwkD52JSGtvnUH9uWOpWDtkCwmnb8YiMQe2QqvsjXc9a2mSndwaA-ysGwz54WoI1G8kRhXpWpMsHfd04d1xXAS3RtlrVMuk
     - icon: fa-solid fa-music
       name: 常听歌单
-      desc: 不断收藏的几百首歌
+      desc: 多年收藏的几百首歌
       link: https://music.163.com/playlist?id=311030278&userid=249117155
     - icon: fa-solid fa-tree-city
       name: 我的家乡
       desc: 欢迎来湄洲岛旅游
       link: http://sw.mzdtour.com/mzdgk/index.jhtml
 ---
-
-这是一个博客主页的案例。
-
-要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home/)。
