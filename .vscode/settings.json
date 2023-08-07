@@ -1,0 +1,27 @@
+{
+	"editor.formatOnSave": true,
+	"prettier.printWidth": 100,
+	"prettier.endOfLine": "crlf",
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 4,
+	"prettier.useEditorConfig": false,
+	"prettier.useTabs": true,
+	"[markdown]": {
+		// markdown文件的格式化方式
+		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+	},
+	"[typescript]": {
+		// ts文件的格式化方式
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		// json文件的格式化方式
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		// scss文件的格式化方式
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// 拼写检测库中增加特定单词
+	"cSpell.words": ["fontawesome", "Gitee", "vuepress", "webfonts", "fonticons"]
+}
