@@ -10,6 +10,11 @@
 	"prettier.useEditorConfig": false,
 	"prettier.useTabs": true,
 	"files.eol": "\r\n",
+	"markdownlint.config": {
+		"default": true,
+		"no-hard-tabs": false,
+		"MD007": { "indent": 4 }
+	},
 	"[markdown]": {
 		// markdown文件的格式化方式
 		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"

@@ -4,7 +4,7 @@ title: 主页
 tagline: 喜欢有情人终成眷属的桥段
 heroImage: /logo.jpg
 heroImageStyle:
-    border-radius: 50%
+	border-radius: 50%
 heroText: 黄建峰的个人博客
 heroFullScreen: true
 bgImage: /bg.jpg
