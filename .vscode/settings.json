@@ -1,4 +1,6 @@
 {
+	"files.eol": "\r\n",
+	"git.enableSmartCommit": true,
 	"workbench.iconTheme": "vscode-icons",
 	"editor.formatOnSave": true,
 	// 通过制表控制符缩进
@@ -10,7 +12,6 @@
 	"prettier.singleQuote": true,
 	"prettier.tabWidth": 4,
 	"prettier.useEditorConfig": false,
-	"files.eol": "\r\n",
 	"markdownlint.config": {
 		"default": true,
 		"no-hard-tabs": false,
