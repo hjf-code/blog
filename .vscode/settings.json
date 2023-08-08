@@ -4,12 +4,12 @@
 	// 通过制表控制符缩进
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
+	"prettier.useTabs": true,
 	"prettier.printWidth": 100,
 	"prettier.endOfLine": "crlf",
 	"prettier.singleQuote": true,
 	"prettier.tabWidth": 4,
 	"prettier.useEditorConfig": false,
-	"prettier.useTabs": true,
 	"files.eol": "\r\n",
 	"markdownlint.config": {
 		"default": true,
@@ -24,22 +24,18 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[typescript]": {
-		// ts文件的格式化方式
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[json]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[jsonc]": {
-		// json文件的格式化方式
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[css]": {
-		// scss文件的格式化方式
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[scss]": {
-		// scss文件的格式化方式
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[html]": {
