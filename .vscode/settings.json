@@ -27,5 +27,20 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	// 拼写检测库中增加特定单词
-	"cSpell.words": ["fontawesome", "Gitee", "vuepress", "webfonts", "fonticons"]
+	"cSpell.words": [
+		"fontawesome",
+		"Gitee",
+		"vuepress",
+		"webfonts",
+		"fonticons",
+		"vuejs",
+		"darkmode",
+		"codetabs",
+		"echarts",
+		"lazyload",
+		"katex",
+		"slidestart",
+		"slideend"
+	]
 }
+
