@@ -1,11 +1,15 @@
 {
 	"editor.formatOnSave": true,
+	// 通过制表控制符缩进
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
 	"prettier.printWidth": 100,
 	"prettier.endOfLine": "crlf",
 	"prettier.singleQuote": true,
 	"prettier.tabWidth": 4,
 	"prettier.useEditorConfig": false,
 	"prettier.useTabs": true,
+	"files.eol": "\r\n",
 	"[markdown]": {
 		// markdown文件的格式化方式
 		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
