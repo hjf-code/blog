@@ -1,10 +1,10 @@
 ---
 date: 2022-08-06
 category:
-    - Canvas2D
+	- Canvas2D
 tag:
-    - 入门
-    - 零碎知识
+	- 入门
+	- 零碎知识
 ---
 
 # Canvas 基础
