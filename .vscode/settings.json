@@ -44,6 +44,8 @@
 	},
 	// 拼写检测库中增加特定单词
 	"cSpell.words": [
+		"Anson",
+		"esbenp",
 		"fontawesome",
 		"Gitee",
 		"vuepress",
