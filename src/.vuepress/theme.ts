@@ -38,10 +38,10 @@ export default hopeTheme({
 	],
 	// icon图标的前缀，方便简写，但是上面使用了2个类型的图标，所以不能设置统一前缀
 	iconPrefix: '',
-	// 开启全屏按钮
-	fullscreen: true,
-	// 在深色模式和浅色模式之间切换
-	darkmode: 'toggle',
+	// 关闭全屏按钮
+	fullscreen: false,
+	// 强制为深色模式
+	darkmode: 'enable',
 	// 是否在导航栏内显示仓库链接，默认为 `true`
 	repoDisplay: true,
 	// 默认为 GitHub. 同时也可以是一个完整的 URL
