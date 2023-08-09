@@ -1,1 +1,32 @@
-<canvas style="width: 700px; height: 200px"> Canvas not supported </canvas>
+<canvas width="200" height="200"> Canvas not supported </canvas>
+<script src="http://localhost:8080/lib/d3.v7.min.js"></script>
+<script>
+	console.log(3);
+	setTimeout(() => {
+		console.log(6);
+		console.log(d3);
+	}, 3000);
+	const data = {
+		name: '福建',
+		children: [
+			{
+				name: '莆田市',
+				children: [
+					{ name: '城厢区' },
+					{ name: '涵江区' },
+					{ name: '荔城区' },
+					{ name: '秀屿区' },
+					{ name: '仙游县' },
+				],
+			},
+			{ name: '福州市' },
+			{ name: '厦门市' },
+			{ name: '漳州市' },
+			{ name: '泉州市' },
+			{ name: '三明市' },
+			{ name: '南平市' },
+			{ name: '龙岩市' },
+			{ name: '宁德市' },
+		],
+	};
+</script>

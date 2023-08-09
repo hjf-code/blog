@@ -32,9 +32,9 @@ export default hopeTheme({
 	navTitle: '放开我，我还能卷！',
 	// icon图标资源，这里使用了fontawesome-free中的solid和brands
 	iconAssets: [
-		'/fontawesome-free-6.4.2/css/fontawesome.min.css',
-		'/fontawesome-free-6.4.2/css/brands.min.css',
-		'/fontawesome-free-6.4.2/css/solid.min.css',
+		'/lib/fontawesome-free-6.4.2/css/fontawesome.min.css',
+		'/lib/fontawesome-free-6.4.2/css/brands.min.css',
+		'/lib/fontawesome-free-6.4.2/css/solid.min.css',
 	],
 	// icon图标的前缀，方便简写，但是上面使用了2个类型的图标，所以不能设置统一前缀
 	iconPrefix: '',
@@ -49,21 +49,6 @@ export default hopeTheme({
 	// 自定义仓库链接文字。默认从 `repo` 中自动推断为
 	// "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
 	repoLabel: 'GitHub',
-	// 博客功能配置
-	blog: {
-		// 座右铭或介绍语
-		description: '可视化爱好者',
-		// 介绍页地址
-		intro: '/me',
-		// 是否剪裁头像为圆形形状
-		roundAvatar: true,
-		// 在侧边栏显示个人信息，会覆盖sidebar
-		sidebarDisplay: 'always',
-		// 时间轴的顶部文字
-		timeline: '往事随风',
-		// 文章列表中展示的文章信息: 写作日期, 字数, 预计阅读时间, 分类, 标签
-		articleInfo: ['Date', 'Word', 'ReadingTime', 'Category', 'Tag'],
-	},
 	// 文章信息
 	pageInfo: ['Date', 'Word', 'ReadingTime', 'Category', 'Tag'],
 	// 是否显示页面贡献者
@@ -87,7 +72,11 @@ export default hopeTheme({
 			attrs: true,
 			chart: true,
 			codetabs: true,
-			demo: true,
+			// demo插件配置
+			demo: {
+				jsfiddle: false,
+				codepen: false,
+			},
 			echarts: true,
 			figure: true,
 			flowchart: true,
@@ -122,5 +111,19 @@ export default hopeTheme({
 			vuePlayground: true,
 		},
 	},
+	// 博客插件配置
+	blog: {
+		// 座右铭或介绍语
+		description: '可视化爱好者',
+		// 介绍页地址
+		intro: '/me',
+		// 是否剪裁头像为圆形形状
+		roundAvatar: true,
+		// 在侧边栏显示个人信息，会覆盖sidebar
+		sidebarDisplay: 'always',
+		// 时间轴的顶部文字
+		timeline: '往事随风',
+		// 文章列表中展示的文章信息: 写作日期, 字数, 预计阅读时间, 分类, 标签
+		articleInfo: ['Date', 'Word', 'ReadingTime', 'Category', 'Tag'],
+	},
 });
-

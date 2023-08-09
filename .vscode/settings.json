@@ -58,7 +58,8 @@
 		"lazyload",
 		"katex",
 		"slidestart",
-		"slideend"
+		"slideend",
+		"codepen",
+		"jsfiddle"
 	]
 }
-
