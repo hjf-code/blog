@@ -6,8 +6,10 @@
 	// 通过制表控制符缩进
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
+	// 显示右侧竖线
 	"editor.rulers": [150],
 	"prettier.useTabs": true,
+	// 代码换行宽度
 	"prettier.printWidth": 150,
 	"prettier.endOfLine": "crlf",
 	"prettier.singleQuote": true,
