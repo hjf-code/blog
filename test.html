@@ -1,32 +1,70 @@
-<canvas width="200" height="200"> Canvas not supported </canvas>
-<script src="http://localhost:8080/lib/d3.v7.min.js"></script>
-<script>
-	console.log(3);
-	setTimeout(() => {
-		console.log(6);
-		console.log(d3);
-	}, 3000);
-	const data = {
-		name: '福建',
-		children: [
-			{
-				name: '莆田市',
-				children: [
-					{ name: '城厢区' },
-					{ name: '涵江区' },
-					{ name: '荔城区' },
-					{ name: '秀屿区' },
-					{ name: '仙游县' },
-				],
-			},
-			{ name: '福州市' },
-			{ name: '厦门市' },
-			{ name: '漳州市' },
-			{ name: '泉州市' },
-			{ name: '三明市' },
-			{ name: '南平市' },
-			{ name: '龙岩市' },
-			{ name: '宁德市' },
-		],
-	};
-</script>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Test</title>
+		<script src="http://localhost:8080/lib/d3.v7.min.js"></script>
+	</head>
+	<body>
+		<canvas width="200" height="200"> Canvas not supported </canvas>
+	</body>
+	<script>
+		const data = {
+			name: '福建',
+			children: [
+				{
+					name: '厦门市',
+					children: [
+						{ name: '湖里区' },
+						{ name: '思明区' },
+						{ name: '集美区' },
+						{ name: '同安区' },
+						{ name: '翔安区' },
+						{ name: '海沧区' },
+					],
+				},
+				{
+					name: '莆田市',
+					children: [
+						{ name: '城厢区' },
+						{ name: '涵江区' },
+						{ name: '荔城区' },
+						{ name: '秀屿区' },
+						{ name: '仙游县' },
+					],
+				},
+				{
+					name: '福州市',
+					children: [
+						{ name: '鼓楼区' },
+						{ name: '台江区' },
+						{ name: '仓山区' },
+						{ name: '马尾区' },
+						{ name: '晋安区' },
+						{ name: '长乐区' },
+						{ name: '闽侯县' },
+						{ name: '连江县' },
+						{ name: '罗源县' },
+						{ name: '闽清县' },
+						{ name: '永泰县' },
+						{ name: '平潭县' },
+						{ name: '福清市' },
+					],
+				},
+			],
+		};
+
+		// 将城市数据按照包含区县的数量，从多到少排序
+		const regions = d3
+			.hierarchy(data)
+			.sum((d) => 1)
+			.sort((a, b) => b.value - a.value);
+
+		console.log(regions);
+
+		const pack = d3.pack().size([1600, 1600]).padding(3);
+
+		const root = pack(regions);
+	</script>
+</html>
+

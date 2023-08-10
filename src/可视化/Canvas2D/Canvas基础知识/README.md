@@ -9,18 +9,6 @@ tag:
 
 # Canvas基础知识
 
-::: normal-demo 引入d3.js
-
-```js
-const head = window.document.head
-const script = window.document.createElement('script');
-script.type = "text/javascript";
-script.setAttribute("src","/lib/d3.v7.min.js");
-head.appendChild(script);
-```
-
-:::
-
 ## 画布宽高和样式宽高
 
 - Canvas元素有两个宽高，一个是元素属性上的宽高(不带px)，一个是CSS中的宽高(带px)。元素属性上的宽高决定Canvas画布的坐标范围，CSS中的宽高决定Canvas在页面上呈现的大小。我们将前者称为**画布宽高**，后者称为**样式宽高**。
@@ -115,7 +103,7 @@ canvas {
 
 ## D3.js绘制关系图实例
 
-::: normal-demo 绘制一个100*100的绿色正方形
+::: normal-demo D3.js绘制关系图实例
 
 ```html
  <canvas width="200" height="200"> 
@@ -124,9 +112,20 @@ canvas {
 ```
 
 ```js
+/****** 引入d3.js这块代码与功能无关，不用关注 BEGIN ******/
+const head = window.document.head
+const script = window.document.createElement('script');
+script.type = "text/javascript";
+script.setAttribute("src","/lib/d3.v7.min.js");
+head.appendChild(script);
+/****** 引入d3.js这块代码与功能无关，不用关注 END ******/
+
+// 加个延时，手动导包后无法马上加载完毕
 setTimeout(() => {
+ /****** 功能代码 BEGIN ******/
   console.log(d3);
-}, 100); 
+ /****** 功能代码 END ******/
+}, 1000); 
 ```
 
 ```css
