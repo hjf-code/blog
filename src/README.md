@@ -8,7 +8,7 @@ heroImageStyle:
 heroText: 黄建峰的个人博客
 heroFullScreen: true
 bgImage: /bg.jpg
-icon: fa-solid fa-home
+icon: /icons/home.svg
 layout: BlogHome
 projects:
   - name: 博客作者

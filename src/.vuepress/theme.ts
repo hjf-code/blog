@@ -114,7 +114,7 @@ export default hopeTheme({
 	// 博客插件配置
 	blog: {
 		// 座右铭或介绍语
-		description: '可视化爱好者',
+		description: '嘴馋、倒头就睡、喜静、独立思考',
 		// 介绍页地址
 		intro: '/me',
 		// 是否剪裁头像为圆形形状

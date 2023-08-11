@@ -7,9 +7,9 @@ tag:
   - 零碎知识
 ---
 
-# Canvas基础知识
+# Canvas零碎知识
 
-## 画布宽高和样式宽高
+## 1. 画布宽高和样式宽高
 
 - Canvas元素有两个宽高，一个是元素属性上的宽高(不带px)，一个是CSS中的宽高(带px)。元素属性上的宽高决定Canvas画布的坐标范围，CSS中的宽高决定Canvas在页面上呈现的大小。我们将前者称为**画布宽高**，后者称为**样式宽高**。
 - 设计两种宽高的作用：适配不同分辨率的设备时，样式宽高可能会根据设备分辨率不同而自适应变化，而此时画布宽高一定不能跟着样式宽高发生变化，否则Canvas中的代码效果会彻底乱套，所以**一定要设置画布宽高**。
@@ -20,14 +20,14 @@ tag:
 <canvas width="512" height="512"> Canvas not supported </canvas>
 ```
 
-## Canvas的坐标系
+## 2. Canvas的坐标系
 
 Canvas的坐标系和浏览器窗口的坐标系类似，它们都默认左上角为坐标原点，x轴水平向右，y轴垂直向下。
 > 一个512*512的canvas坐标系如下：
 
 ![512*512的canvas坐标系](./坐标系.png)
 
-## 2D绘图上下文
+## 3. 2D绘图上下文
 
 Canvas2D的API大致分为两类
 
@@ -43,7 +43,7 @@ const canvas = document.querySelector('canvas')!;
 const context = canvas.getContext('2d')!;
 ```
 
-## 画布平移
+## 4. 画布平移
 
 有时候为了方便计算绘制顶点的坐标，需要将画布平移，平移后坐标系的原点会跟着平移，但浏览器可视区位置不变
 
@@ -59,7 +59,7 @@ const context = canvas.getContext('2d')!;
 context.translate(x, y);
 ```
 
-## 绘制矩形实例
+## 5. 绘制矩形实例
 
 ::: normal-demo 绘制一个100*100的绿色正方形
 
@@ -91,41 +91,6 @@ context.translate(x, y);
  context.fill();
  // 恢复画布状态为暂存时的状态
  context.restore();
-```
-
-```css
-canvas {
-  background-color: #282c34;
-}
-```
-
-:::
-
-## D3.js绘制关系图实例
-
-::: normal-demo D3.js绘制关系图实例
-
-```html
- <canvas width="200" height="200"> 
-  Canvas not supported
-</canvas>
-```
-
-```js
-/****** 引入d3.js这块代码与功能无关，不用关注 BEGIN ******/
-const head = window.document.head
-const script = window.document.createElement('script');
-script.type = "text/javascript";
-script.setAttribute("src","/lib/d3.v7.min.js");
-head.appendChild(script);
-/****** 引入d3.js这块代码与功能无关，不用关注 END ******/
-
-// 加个延时，手动导包后无法马上加载完毕
-setTimeout(() => {
- /****** 功能代码 BEGIN ******/
-  console.log(d3);
- /****** 功能代码 END ******/
-}, 1000); 
 ```
 
 ```css
