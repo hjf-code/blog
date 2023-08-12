@@ -11,11 +11,18 @@
 }
 
 .vp-navbar .nav-link,
+.dropdown-wrapper .dropdown-title .title,
 .nav-screen-dropdown .nav-link {
 	display: flex;
 	align-items: center;
 
 	img.icon {
-		height: 1em;
+		height: 1.2em;
+		width: 1.2em;
 	}
+}
+
+.dropdown-wrapper .dropdown-title {
+	display: flex;
+	align-items: center;
 }

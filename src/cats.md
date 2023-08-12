@@ -1,7 +1,6 @@
 ---
 date: 2023-08-01
 article: false
-icon: fa-solid fa-paw
 layout: Slide
 ---
 

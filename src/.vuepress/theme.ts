@@ -31,11 +31,7 @@ export default hopeTheme({
 	// 导航栏标题
 	navTitle: '放开我，我还能卷！',
 	// icon图标资源，这里使用了fontawesome-free中的solid和brands
-	iconAssets: [
-		'/lib/fontawesome-free-6.4.2/css/fontawesome.min.css',
-		'/lib/fontawesome-free-6.4.2/css/brands.min.css',
-		'/lib/fontawesome-free-6.4.2/css/solid.min.css',
-	],
+	iconAssets: [],
 	// icon图标的前缀，方便简写，但是上面使用了2个类型的图标，所以不能设置统一前缀
 	iconPrefix: '',
 	// 关闭全屏按钮
@@ -127,3 +123,4 @@ export default hopeTheme({
 		articleInfo: ['Date', 'Word', 'ReadingTime', 'Category', 'Tag'],
 	},
 });
+

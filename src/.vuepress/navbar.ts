@@ -4,7 +4,7 @@ export default navbar([
 	'/',
 	{
 		text: '基础',
-		icon: 'fa-solid fa-solar-panel',
+		icon: '/icons/base.svg',
 		prefix: '/基础/',
 		children: [
 			{
@@ -21,7 +21,7 @@ export default navbar([
 	},
 	{
 		text: 'VUE',
-		icon: 'fa-brands fa-vuejs',
+		icon: '/icons/VUE.svg',
 		prefix: '/VUE/',
 		children: [
 			{
@@ -31,17 +31,17 @@ export default navbar([
 			},
 			{
 				text: 'mini-vue3',
-				icon: 'fa-solid fa-list-ul',
+				icon: '/icons/mini.svg',
 				link: 'mini-vue3',
 			},
 			{
 				text: 'VUE3源码',
-				icon: 'fa-solid fa-code',
+				icon: '/icons/Code.svg',
 				link: 'VUE3源码',
 			},
 			{
 				text: 'VUE Router',
-				icon: 'fa-solid fa-location-arrow',
+				icon: '/icons/navigation.svg',
 				link: 'VUE Router',
 			},
 			{
@@ -58,34 +58,35 @@ export default navbar([
 	},
 	{
 		text: '可视化(暂停)',
-		icon: 'fa-solid fa-chart-line',
+		icon: '/icons/visual.svg',
 		prefix: '/可视化/',
 		children: [
 			{
 				text: '数学基础(暂停)',
-				icon: 'fa-solid fa-square-root-variable',
+				icon: '/icons/math.svg',
 				link: '数学基础',
 			},
 			{
 				text: 'Canvas2D(暂停)',
-				icon: 'fa-solid fa-draw-polygon',
+				icon: '/icons/2D.svg',
 				link: 'Canvas2D',
 			},
 			{
 				text: 'WebGL(暂停)',
-				icon: 'fa-solid fa-cubes',
+				icon: '/icons/3D.svg',
 				link: 'WebGL',
 			},
 		],
 	},
 	{
 		text: '两只猫',
-		icon: 'fa-solid fa-paw',
+		icon: '/icons/cat.svg',
 		link: '/cats',
 	},
 	{
 		text: '关于我',
-		icon: 'fa-solid fa-person-snowboarding',
+		icon: '/icons/me.svg',
 		link: '/me',
 	},
 ]);
+
